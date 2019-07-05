@@ -1,0 +1,61 @@
+{
+  "name": "datuer",
+  "version": "0.0.1-dev",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaitamaSama/datuer.git"
+  },
+  "keywords": [
+    "analytics",
+    "graphs",
+    "dashboard"
+  ],
+  "author": "Gourab Nag <saitama@bakaa.bid>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SaitamaSama/datuer/issues"
+  },
+  "homepage": "https://github.com/SaitamaSama/datuer#readme",
+  "devDependencies": {
+    "@types/jwt-decode": "^2.2.1",
+    "@types/node": "^11.13.6",
+    "@types/node-fetch": "^2.3.3",
+    "@types/react": "^16.8.14",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.3",
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jwt-decode": "^2.2.0",
+    "mobx-react-devtools": "^6.0.3",
+    "node-fetch": "^2.4.0",
+    "node-sass": "^4.12.0",
+    "react-dropdown": "^1.6.4",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "typescript": "^3.5.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.2",
+    "@material-ui/icons": "^4.0.1",
+    "mobx": "^5.10.0",
+    "mobx-react": "^6.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "recharts": "^1.6.2"
+  }
+}

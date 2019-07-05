@@ -1,0 +1,11 @@
+.stat-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  padding: 1.2rem .6rem;
+  width: calc(100% - 1.2rem);
+
+  & > *:first-child {
+    margin-left: 0;
+  }
+}

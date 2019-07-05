@@ -1,0 +1,32 @@
+.notification {
+  border-radius: 4px;
+  padding: .6rem .8rem;
+  width: calc(100% - 2rem);
+  background: rgba(0,0,0,.1);
+  margin: .6rem 0;
+
+  .notification-header {
+    .notification-title {
+      font-weight: 900;
+      font-size: 1rem;
+    }
+    .time {
+      font-weight: 300;
+      font-size: .8rem;
+    }
+  }
+
+  .notification-description {
+    opacity: .7;
+    font-size: .9rem;
+    margin-top: .5rem;
+    line-height: 1.67;
+  }
+
+  .notification-actions {
+    border-top: .5px solid rgba(255,255,255,.0);
+    height: 0;
+    overflow: hidden;
+    margin-top: 0;
+  }
+}
